@@ -21,3 +21,10 @@ aws elbv2 describe-load-balancers
 ```
 aws elbv2 describe-listeners --load-balancer-arn {load balancer arn}
 ```
+
+
+### describe target groups by target group arns
+
+```bash
+aws elbv2 describe-target-groups --target-group-arns arn:aws:elasticloadbalancing:ap-northeast-2:915486611144:targetgroup/tg-event-api-dev/27f2811d25fcbf78
+```
