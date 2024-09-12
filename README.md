@@ -7,3 +7,8 @@ hello aws cli
 aws sts get-caller-identity
 ```
 
+## aws elb list
+
+```bash
+aws elbv2 describe-load-balancers
+```
